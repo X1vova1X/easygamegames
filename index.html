@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EasyGame</title>
+  <style>
+    /* Global styles */
+    body {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+
+    /* Header styles */
+    header {
+      background-color: #2c3e50;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin: 0;
+    }
+
+    /* Game section styles */
+    .game-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 40px 0;
+    }
+
+    .game-card {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      margin: 20px;
+      padding: 20px;
+      text-align: center;
+      width: 300px;
+    }
+
+    .game-card img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    .game-card h2 {
+      font-size: 24px;
+      margin-top: 20px;
+    }
+
+    .game-card p {
+      font-size: 16px;
+      color: #666;
+      margin-top: 10px;
+    }
+
+    .game-card a {
+      display: inline-block;
+      background-color: #2980b9;
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      margin-top: 20px;
+      transition: background-color 0.3s ease;
+    }
+
+    .game-card a:hover {
+      background-color: #3498db;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>EasyGame</h1>
+  </header>
+
+  <div class="game-section">
+    <div class="game-card">
+      <img src="chess.png" alt="Chess">
+      <h2>Chess</h2>
+      <p>Play classic chess locally on your device in 2-player mode.</p>
+      <a href="https://x1vova1x.github.io/easygame/games/chess">Play Now</a>
+    </div>
+
+    <div class="game-card">
+      <img src="2048.png" alt="2048">
+      <h2>2048</h2>
+      <p>Experience the addictive 2048 game locally.</p>
+      <a href="https://x1vova1x.github.io/easygame/games/2048">Play Now</a>
+    </div>
+
+    <div class="game-card">
+      <img src="spelling-bee.png" alt="Spelling Bee">
+      <h2>Spelling Bee</h2>
+      <p>Test your text recognizing skills in this engaging game.</p>
+      <a href="https://x1vova1x.github.io/easygame/games/spellingbee">Play Now</a>
+    </div>
+  </div>
+</body>
+</html>
